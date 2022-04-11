@@ -1,14 +1,136 @@
 <!DOCTYPE html>
 <html lang="NL">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
+  <head>
+    <link rel="stylesheet" href="/lobnaSabriPortfolio/assets/css/layout.css" />
 
-<h1> Hello world</h1>
-<body>
-  
-</body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Lobna Sabri</title>
+  </head>
+
+  <body>
+    <ul class="navbar">
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projecten">Projecten</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <div id="google_translate_element"></div>
+    </ul>
+
+    <br />
+    <img
+      src="assets/pictures/profielFoto.PNG"
+      alt="profielFoto"
+      style="
+        align-items: center;
+        border-radius: 50%;
+        width: 85px;
+        height: 100px;
+      "
+    />
+    <h1>Mijn portfolio</h1>
+
+    <div class="block">
+      <img
+        src="assets/pictures/SAPLogo.png"
+        alt="sap logo"
+        style="float: right; border-radius: 50%; width: 140px; height: 90px"
+      />
+      <p>
+        Ik ben Lobna Sabri en ik ben een studente aan
+        <a href="https://www.hogent.be/">HOGENT</a> <br />
+        en studeer Toegepaste Informatica - ERP. <br />
+        Op dit moment zit ik in mijn tweede jaar.
+      </p>
+
+      <h2>Meer over mijzelf:</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt itaque
+        placeat possimus molestiae saepe animi aut nesciunt error autem,
+        voluptatibus dolores recusandae consequuntur impedit iure magnam nemo.
+        Laudantium, ipsam deserunt.
+      </p>
+      <a name="about"></a>
+      <h2>Mijn kennis op vlak van programmeertalen:</h2>
+
+      <table>
+        <tr>
+          <th>Taal</th>
+          <th>Detail</th>
+          <th>Kennis</th>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>C#, Eclipse</td>
+          <td>??</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>/</td>
+          <td>??</td>
+        </tr>
+        <tr>
+          <td>Html</td>
+          <td>css, js</td>
+          <td>matig</td>
+        </tr>
+      </table>
+
+      <a name="projecten"></a>
+      <h2>Projecten waaraan ik tijdens mijn studies heb gewerkt:</h2>
+      <ol>
+        <li>Beschrijving</li>
+        <br />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          hic in, vitae harum blanditiis dolore totam praesentium nulla
+          accusamus error, esse omnis nihil itaque quos reiciendis! Possimus
+          illo perspiciatis id?
+        </p>
+        <li>Mijn input</li>
+        <br />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          hic in, vitae harum blanditiis dolore totam praesentium nulla
+          accusamus error, esse omnis nihil itaque quos reiciendis! Possimus
+          illo perspiciatis id?
+        </p>
+
+        <li>Mijn feedback</li>
+        <br />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          hic in, vitae harum blanditiis dolore totam praesentium nulla
+          accusamus error, esse omnis nihil itaque quos reiciendis! Possimus
+          illo perspiciatis id?
+        </p>
+      </ol>
+
+      <a name="contact"></a>
+      <table style="border: none; font-size: 20px">
+        <td>
+          <a href="https://www.linkedin.com/in/lobna-sabri-a22b15223/ "
+            >LinkIn</a
+          >
+        </td>
+        <td><a href="mailto:lobna.sabri@student.hogent.be">Zend Email</a></td>
+        <td>telefoonnummer</td>
+      </table>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            { pageLanguage: "NL" },
+            "google_translate_element"
+          );
+        }
+      </script>
+
+      <script
+        type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      ></script>
+    </div>
+  </body>
 </html>
