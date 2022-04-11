@@ -1,13 +1,18 @@
 body{
-  margin: 2%;
+  margin: 3%;
   background-color: black;
   color: white;
   text-align: center;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .block{
   background-color: rgb(112, 102, 102);
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 h1{
@@ -21,7 +26,7 @@ h2{
 
 p{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 .navbar{
   backdrop-filter: blur(10px);
@@ -33,7 +38,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /* background-color: rgb(112, 102, 102); */
+
   position: fixed;
   top: 0;
   width: 100%;
@@ -68,4 +73,19 @@ th{
   font-style: italic;
 }
 
+.btn{
 
+  align-self: left;
+  background-color: rgb(112, 102, 102);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.pfp{
+   border-radius: 50%;
+   width: 140px; 
+   height: 160px;
+}
