@@ -1,6 +1,6 @@
 body{
   margin: 3%;
-  background-color: black;
+  background-color: rgb(210,180,140);
   color: white;
   text-align: center;
 
@@ -13,6 +13,8 @@ body::-webkit-scrollbar {
 .block{
   background-color: rgb(112, 102, 102);
   border-radius: 20px;
+  padding: 10px; 
+  margin: 20px;
 }
 
 h1{
@@ -30,7 +32,13 @@ p{
 }
 .navbar{
   backdrop-filter: blur(10px);
+  overflow: hidden;
+  width: 95%;
+}
 
+.topnav-right {
+  float:right;
+  padding: 15px;
 }
 
 ul {
@@ -67,6 +75,7 @@ table{
   align-self: center;
   border: 1px solid ;
   font-size: 25px;
+  border-radius: 7px;
 }
 
 th{
@@ -77,7 +86,7 @@ th{
 
   align-self: left;
   background-color: rgb(112, 102, 102);
-  border: none;
+  border: solid;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
@@ -88,4 +97,8 @@ th{
    border-radius: 50%;
    width: 140px; 
    height: 160px;
+}
+
+.flag{
+  width:25px;
 }
