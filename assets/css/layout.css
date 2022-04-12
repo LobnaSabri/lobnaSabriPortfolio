@@ -43,6 +43,10 @@ p{
   padding: 15px;
 }
 
+.midden{
+  padding: 30px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
