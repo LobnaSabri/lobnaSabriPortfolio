@@ -5,16 +5,26 @@
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio Lobna Sabri</title>
   </head>
 
   <body>
-    <ul class="navbar">
-      <li><a class="active" href="#">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projecten">Projecten</a></li>
-      <li><a href="#contact">Contact</a></li>
+     <ul class="topnav"> 
+     
+
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projecten">Projecten</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+        </div>
+      </div>
+
+
       <div class="topnav-right">
         <a href="#nederlands">
           <img class="flag" src="assets/flags/1x1/nl.svg" alt="NL"
@@ -27,6 +37,9 @@
         /></a>
       </div>
     </ul>
+
+    
+    <div class="midden">
 
     <br />
     <img class="pfp" src="assets/pictures/profielFoto.PNG" alt="profielFoto" />
@@ -183,5 +196,7 @@
         <i class="fa fa-download"></i>Download mijn CV
       </button>
     </a>
+
+  </div>
   </body>
 </html>
