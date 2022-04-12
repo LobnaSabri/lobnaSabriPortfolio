@@ -29,6 +29,7 @@ h2{
 p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+  
 }
 
 .topnav{
@@ -44,7 +45,7 @@ p{
 }
 
 .midden{
-  padding: 30px;
+  padding-top: 30px;
 }
 
 ul {
@@ -74,6 +75,12 @@ li a:hover {
   background-color: #111;
 }
 
+.block > ol{
+  text-align: left;
+}
+ol > a{
+  color:white
+}
 
 table{
   width:100%; 
@@ -91,7 +98,8 @@ th{
 
   align-self: left;
   background-color: rgb(112, 102, 102);
-  border: solid;
+  border: solid black;
+  border-radius: 7px;
   color: white;
   padding: 12px 30px;
   cursor: pointer;
@@ -152,12 +160,26 @@ th{
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
+
+
+
 @media screen and (max-width: 600px) {
   .dropdown{
     display: flex;
     position: fixed;
   }
-  .firstnav{
-    display: none;
+  p{
+    font-size: 15px;
+    text-align: left;
+  }
+  table{
+    
+    font-size: 15px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 20px;
   }
 }
