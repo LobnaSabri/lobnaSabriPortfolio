@@ -30,9 +30,7 @@ p{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-.midden{
-  padding: 40px;
-}
+
 .topnav{
   backdrop-filter: blur(10px);
   overflow: hidden;
@@ -114,7 +112,7 @@ th{
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
+/* The container */
 .dropdown {
   float: left;
   display: flex;
@@ -122,13 +120,13 @@ th{
   overflow: visible;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* Dropdown Content*/
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: black;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgb(112, 102, 102);
   z-index: 1;
 }
 
@@ -141,7 +139,7 @@ th{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color:rgb(112, 102, 102);}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
