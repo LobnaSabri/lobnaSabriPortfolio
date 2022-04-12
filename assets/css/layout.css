@@ -37,7 +37,7 @@ p{
   backdrop-filter: blur(10px);
   overflow: hidden;
   width: 95%;
-  padding: 20px;
+  overflow: visible;
 }
 
 .topnav-right {
@@ -119,7 +119,7 @@ th{
   float: left;
   display: flex;
   padding: 5px;
-  
+  overflow: visible;
 }
 
 /* Dropdown Content (Hidden by Default) */
