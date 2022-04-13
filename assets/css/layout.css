@@ -1,38 +1,36 @@
-body{
+body {
   margin: 3%;
-  background-color: rgb(210,180,140);
+  background-color: rgb(210, 180, 140);
   color: white;
   text-align: center;
-
 }
 
 body::-webkit-scrollbar {
   display: none;
 }
 
-.block{
+.block {
   background-color: rgb(112, 102, 102);
   border-radius: 20px;
-  padding: 10px; 
+  padding: 10px;
   margin: 20px;
 }
 
-h1{
-  display:flex;
+h1 {
+  display: flex;
   justify-content: center;
-
 }
-h2{
+
+h2 {
   text-decoration: underline;
 }
 
-p{
+p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  
 }
 
-.topnav{
+.topnav {
   backdrop-filter: blur(10px);
   overflow: hidden;
   width: 95%;
@@ -40,11 +38,11 @@ p{
 }
 
 .topnav-right {
-  float:right;
+  float: right;
   padding: 15px;
 }
 
-.midden{
+.midden {
   padding-top: 30px;
 }
 
@@ -75,27 +73,14 @@ li a:hover {
   background-color: #111;
 }
 
-.block > ol{
+.block > ol {
   text-align: left;
 }
-ol > a{
-  color:white
+ol > a {
+  color: white;
 }
 
-table{
-  width:100%; 
-  align-self: center;
-  border: 1px solid ;
-  font-size: 25px;
-  border-radius: 7px;
-}
-
-th{
-  font-style: italic;
-}
-
-.btn{
-
+.btn {
   align-self: left;
   background-color: rgb(112, 102, 102);
   border: solid black;
@@ -106,14 +91,14 @@ th{
   font-size: 20px;
 }
 
-.pfp{
-   border-radius: 50%;
-   width: 140px; 
-   height: 160px;
+.pfp {
+  border-radius: 50%;
+  width: 140px;
+  height: 160px;
 }
 
-.flag{
-  width:25px;
+.flag {
+  width: 25px;
 }
 
 .dropbtn {
@@ -122,6 +107,7 @@ th{
   padding: 16px;
   font-size: 16px;
   border: none;
+  border-radius: 7px;
 }
 
 /* The container */
@@ -151,35 +137,60 @@ th{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color:rgb(112, 102, 102);}
+.dropdown-content a:hover {
+  background-color: rgb(112, 102, 102);
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
+.grid-container-taal {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.grid-container-programmeer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-container-contact {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 20px;
+  text-align: left;
+  row-gap: 10px;
+}
 
-
-
+.grid-container-programmeer > div,
+.grid-container-taal > div {
+  background-color: rgb(173, 161, 161);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 100%;
+}
 
 @media screen and (max-width: 600px) {
-  .dropdown{
+  .dropdown {
     display: flex;
     position: fixed;
   }
-  p{
+  p {
     font-size: 15px;
     text-align: left;
   }
-  table{
-    
-    font-size: 15px;
-  }
-  h1{
+  h1 {
     font-size: 25px;
   }
-  h2{
+  h2 {
     font-size: 20px;
+  }
+  .midden {
+    padding-top: 50px;
   }
 }
