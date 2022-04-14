@@ -1,3 +1,16 @@
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.topnav, .pfp {
+  animation: 1s ease-out 0s 1 slideIn;
+}
+
+
 body {
   margin: 3%;
   background-color: rgb(210, 180, 140);
