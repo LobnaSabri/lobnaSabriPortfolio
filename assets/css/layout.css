@@ -8,6 +8,9 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+* {
+  scroll-behavior: smooth;
+}
 
 .block {
   background-color: rgb(112, 102, 102);
